@@ -1,4 +1,6 @@
-package com.example.kotlinlearning
+package com.example.kotlinlearning.intro
+
+import com.example.kotlinlearning.intro.Employee
 
 
 /**

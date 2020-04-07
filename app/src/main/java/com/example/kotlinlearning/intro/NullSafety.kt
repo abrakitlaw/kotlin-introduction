@@ -1,4 +1,6 @@
-package com.example.kotlinlearning
+package com.example.kotlinlearning.intro
+
+import com.example.kotlinlearning.intro.Employee
 
 
 /**
@@ -16,15 +18,15 @@ class NullSafety {
     fun printTest(){
 
         //Won't compile,
-        employee.print()
+        //employee.print()
 
         //will print only if employee != null
         employee?.print()
 
         //Smart Cast, we don't need to use safe call operator if we previously checked nullity
-        if (employee != null) {
+        /*if (employee != null) {
             employee.print()
-        }
+        }*/
 
         //Use only we are sure it's not null. will throw an exception otherwise
         employee!!.print()
