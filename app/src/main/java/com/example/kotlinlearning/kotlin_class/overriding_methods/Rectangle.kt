@@ -28,6 +28,6 @@ fun main(args: Array<String>) {
     println()
 
     println("Vertex count total in shape: ${Shape().vertexCount}")
-    println("Vertex count total in circle: ${Rectangle().vertexCount}")
+    println("Vertex count total in rectangle: ${Rectangle().vertexCount}")
 
 }
